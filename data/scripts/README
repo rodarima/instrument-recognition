@@ -1,0 +1,14 @@
+download.sh:
+Descarga de philharmonia.co.uk todos los instrumentos que puede en zip
+
+unpack.sh:
+Sirve para descomprimir todo fichero "*.zip" de la carpeta zip en la carpeta
+"mp3".
+
+mp3towav.sh:
+Sirve para convertir los ficheros "*.mp3" de la carpeta mp3 al formato wav
+
+Para descargar el repertorio de los instrumentos copia esta carpeta a algún
+lugar con espacio (sobre 2GB) y ejecuta:
+
+	$ ./get-database.sh

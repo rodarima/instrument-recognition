@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DIR=$(dirname $0)
+ZIP="$DIR/zip"
+
+test -d "$ZIP" || mkdir -p "$ZIP"
+wget -i "$DIR/list-zip.txt" -P "$ZIP/"
