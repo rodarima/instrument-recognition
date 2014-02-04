@@ -1,4 +1,4 @@
 instrument-recognition
 ======================
 
-Instrument recognition
+Proyecto de reconocimiento de audio de instrumentos.
