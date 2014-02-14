@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$(dirname "$0")
+DIR="$DST_DIR"
 cd "$DIR"
 DIR=$(pwd)
 ZIP="$DIR/zip"

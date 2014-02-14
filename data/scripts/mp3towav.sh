@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$(dirname "$0")
+DIR="$DST_DIR"
 SRC="$DIR/mp3"
 DST="$DIR/wav"
 
